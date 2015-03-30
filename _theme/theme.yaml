@@ -13,18 +13,6 @@ elements:
       - images
       - js
     importer: blog_static_files
-  default_pages:
-    component: 'core'
-    importer: 'default_pages'
-    name: 'Default Pages'
-    data:
-      about_page:
-        basename: 'index'
-        title: '<__trans phrase="About Page">'
-        text: '<__trans phrase="_ABOUT_PAGE_BODY">'
-        tags: '@ABOUT_PAGE'
-        folder: 'about'
-        status: 1
   template_set:
     component: ~
     data:
