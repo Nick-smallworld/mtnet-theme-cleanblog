@@ -76,4 +76,4 @@ elements:
                 archive_type: Page
                 file_template: '%-c/%-f'
                 preferred: 1
-    importer: template_set
+
