@@ -45,21 +45,17 @@ elements:
             mappings:
               individual:
                 archive_type: Individual
-                file_template: '%y/%m/%-f'
-                preferred: 1
         archive:
           category_entry_listing:
             label: 'Category Entry Listing'
             mappings:
               category:
                 archive_type: 'Category'
-                preferred: 1
           monthly_entry_listing:
             label: 'Monthly Entry Listing'
             mappings:
               yearly:
                 archive_type: 'Monthly'
-                preferred: 1
         module:
           html_head:
             label: 'HTML Head'
@@ -73,6 +69,6 @@ elements:
             mappings:
               page:
                 archive_type: Page
-                file_template: '%-c/%-f'
-                preferred: 1
+
+
 
