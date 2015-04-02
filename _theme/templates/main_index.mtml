@@ -50,15 +50,25 @@
                     </a>
                 <p class="post-meta">Posted by <mt:If tag="EntryAuthorURL"><a href="<mtEntryAuthorURL>"></mt:If><mt:AuthorName><mt:If tag="EntryAuthorURL"></a></mt:If> on <mt:EntryDate language="en"></p>
                 </div>
+                <hr>
+                <!-- Pager -->
                 <mt:EntriesFooter>
                   <mt:PaginationHasPrevious>
-                    <a href="<$mt:PaginationPreviousURL$>">Prev</a>
+                <ul class="pager">
+                  <li class="next">
+                    <a href="<$mt:PaginationPreviousURL$>"><__trans_prhase="Previous"></a>
+                  </li>
+                </ul>
                   </mt:PaginationHasPrevious>
                   <mt:PaginationHasNext>
-                    <a href="<$mt:PaginationNextURL$>">Next</a>
+                <ul class="pager">
+                  <li class="previous">
+                    <a href="<$mt:PaginationNextURL$>"><__trans_phrase="Next"></a>
+                  </li>
+                </ul>
                   </mt:PaginationHasNext>
                 </mt:EntriesFooter>
-                <hr>
+                </div>
             </mt:Entries>
             </div>
         </div>
