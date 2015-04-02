@@ -46,6 +46,23 @@
                 </div>
                 <hr>
             </mt:Entries>
+            <mt:Entries paginate_by="10">
+                <!-- Pager -->
+                <mt:EntriesFooter>
+                <ul class="pager">
+                  <mt:PaginationHasPrevious>
+                  <li class="previous">
+                    <a href="<$mt:PaginationPreviousURL$>"><__trans phrase="PagePrevious"></a>
+                  </li>
+                  </mt:PaginationHasPrevious>
+                  <mt:PaginationHasNext>
+                  <li class="next">
+                    <a href="<$mt:PaginationNextURL$>"><__trans phrase="PageNext"></a>
+                  </li>
+                  </mt:PaginationHasNext>
+                </ul>
+                </mt:EntriesFooter>
+             </mt:Entries>
             </div>
         </div>
     </div>
