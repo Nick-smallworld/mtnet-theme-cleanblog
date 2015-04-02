@@ -38,7 +38,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            <mt:Entries limit="10">
+            <mt:Entries paginate_by="10">
                 <div class="post-preview">
                 <a href="<mt:EntryPermaLink>">
                         <h2 class="post-title">
@@ -50,6 +50,14 @@
                     </a>
                 <p class="post-meta">Posted by <mt:If tag="EntryAuthorURL"><a href="<mtEntryAuthorURL>"></mt:If><mt:AuthorName><mt:If tag="EntryAuthorURL"></a></mt:If> on <mt:EntryDate language="en"></p>
                 </div>
+                <mt:EntriesFooter>
+                  <mt:PaginationHasPrevious>
+                    <a href="<$mt:PaginationPreviousURL$>">Prev</a>
+                  </mt:PaginationHasPrevious>
+                  <mt:PaginationHasNext>
+                    <a href="<$mt:PaginationNextURL$>">Next</a>
+                  </mt:PaginationHasNext>
+                </mt:EntriesFooter>
                 <hr>
             </mt:Entries>
             </div>
