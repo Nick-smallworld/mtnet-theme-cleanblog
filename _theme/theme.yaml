@@ -45,12 +45,16 @@ elements:
             outfile: clean-blog.css
             rebuild_me: 1
           archive_index:
-            label: Archive Index
+            label: 'Archive Index'
             outfile: archives.html
             rebuild_me: 1
           feed_recent:
             label: 'Feed - Recent Entries'
             outfile: 'atom.xml'
+            rebuild_me: 1
+          pagest:
+            label: 'Pages'
+            outfile: 'pages.html'
             rebuild_me: 1
         individual:
           entry:
