@@ -52,8 +52,8 @@ elements:
             label: 'Feed - Recent Entries'
             outfile: 'atom.xml'
             rebuild_me: 1
-          pages:
-            label: 'Pages'
+          page_list:
+            label: 'page_list'
             outfile: 'pages.html'
             rebuild_me: 1
         individual:
