@@ -40,8 +40,10 @@
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <mt:EntryBody>
                 <mt:EntryMore>
+                <mt:If tag="EntryCategories">
                 <hr>
-                <mt:If tag="EntryCategories"><span class="category"><__trans phrase="Categories">: <mt:EntryCategories glue =", "><a href="<mt:CategoryArchiveLink>"><mt:CategoryLabel></a></mt:EntryCategories></span></mt:If>
+                <span class="category"><__trans phrase="Categories">: <mt:EntryCategories glue =", "><a href="<mt:CategoryArchiveLink>"><mt:CategoryLabel></a></mt:EntryCategories></span>
+                </mt:If>
                 </div>
             </div>
         </div>
