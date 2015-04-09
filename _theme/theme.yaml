@@ -52,7 +52,7 @@ elements:
             label: 'Feed - Recent Entries'
             outfile: 'atom.xml'
             rebuild_me: 1
-          pagest:
+          pages:
             label: 'Pages'
             outfile: 'pages.html'
             rebuild_me: 1
