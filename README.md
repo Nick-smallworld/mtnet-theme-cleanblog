@@ -32,3 +32,4 @@ Apache 2.0 License については、以下をご覧ください。
 
 - https://www.apache.org/licenses/LICENSE-2.0
 - http://ja.wikipedia.org/wiki/Apache_License
+- 
