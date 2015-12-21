@@ -18,8 +18,12 @@ Apache 2.0 Licenceで配布されているテンプレート「Clean Blog」を�
 
 ## どうやってインストールするの?
 
-MovableType.netの「GitHub連携機能」をご利用ください。
+ダウンロード後、zipファイルをMovableType.netのテーマ「読み込む」を利用してインポートしてください。
+- https://movabletype.net/support/design/import-theme.html
+もしくは、MovableType.netの「GitHub連携機能」をご利用ください。
 - https://movabletype.net/blog/github/
+
+
 
 ## 勝手に使ってよいの？
 はい、個人利用、ビジネス利用などに、ご自由にお使いください。
